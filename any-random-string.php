@@ -2,6 +2,7 @@
 
 // How to use: Access /any-rondom-string.php?fqdn=FQDN
 // Whois, grep, and cut commands are required 
+// You say it's faster to use some kind of API? That's right!
 
 $fqdn = $_GET['fqdn'];
 $regexp = '/^(?!\-)[\-0-9A-Za-z]{1,63}(?<!\-)(?:\.(?!\-)[\-0-9A-Za-z]{1,63}(?<!\-))*$/';
